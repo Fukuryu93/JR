@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 def main():
     # ターゲットのURL（実際のURLに変更してください）
-    TARGET_URL = "https://example.com/form"
+    TARGET_URL = "https://form.qooker.jp/Q/ja/suicanewchar/vote/"
 
     with sync_playwright() as p:
         # GitHub Actions上ではヘッドレスモード（画面なし）で起動
